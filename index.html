@@ -8,129 +8,30 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon-32x32.png" />
+
     <title>Ayopal | Profile card component</title>
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
-    </style>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-        .attribution {
-            width: 100%;
-            font-size: 11px;
-            text-align: center;
-            margin: 5px auto;
-        }
-        
-        .attribution a {
-            color: hsl(228, 45%, 44%);
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            width: 100%;
-            height: 100vh;
-            background: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .main {
-            width: 100%;
-            height: 100vh;
-            background: hsl(185, 75%, 39%);
-        }
-        
-        .container {
-            width: 85%;
-            background: white;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            border-radius: 15px;
-            text-align: center;
-        }
-        /*Images style*/
-        
-        div .upper_part {
-            position: absolute;
-            width: 100%;
-            height: 21vh;
-            background: url(./images/bg-pattern-card.svg);
-            top: 0;
-            z-index: -1;
-            border-radius: 15px 15px 0 0;
-        }
-        
-        div .profile_image {
-            border-radius: 50%;
-            border: 7px solid #fff;
-            margin-top: 85px;
-        }
-        /*Images style*/
-        /**Letter Style**/
-        
-        h1 {
-            font-family: Kumbh Sans;
-            font-size: 1.12rem;
-            font-weight: 700;
-            color: hsl(229, 23%, 23%);
-        }
-        
-        .sub {
-            font-weight: 400;
-            font-family: Kumbh Sans;
-            color: hsl(227, 10%, 46%);
-            font-size: 1rem;
-            margin-top: 0.5rem;
-        }
-        
-        .profile_details {
-            margin-top: 1.6rem;
-        }
-        /**Letter Style**/
-        /**footer style**/
-        
-        hr {
-            margin: 30px auto;
-            color: hsl(227, 10%, 46%);
-        }
-        
-        footer {
-            display: flex;
-            height: 10vh;
-            margin: 10px 5px auto;
-            justify-content: space-around;
-        }
-        
-        @media (min-width: 600px) {
-            .container {
-                width: 20%;
-                text-align: center;
-            }
-            .main {
-                width: 90%;
-                height: 80vh;
-                background: hsl(185, 75%, 39%);
-            }
-        }
     </style>
 </head>
 
 <body>
     <div class="main">
+        <!---Bckground svg-->
+        <div class="svgContainer">
+            <img src="./images/bg-pattern-top.svg" alt="" class="svg1" />
+        </div>
+        <div class="svgContainer">
+            <img src="./images/bg-pattern-bottom.svg" alt="" class="svg1" />
+        </div>
         <!--Frontendmentor Information-->
         <div class="attribution">
             Challenge by
             <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
-        >. Coded by <a href="#">Ayopal</a>.
+        >. Coded by
+        <a href="https://github.com/Ayopal/profileCard">Ayopal Git Hub</a>.
         </div>
 
         <!--Frontendmentor Information-->
