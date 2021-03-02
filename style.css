@@ -105,5 +105,15 @@
                 width: 100%;
                 background: hsl(185, 75%, 39%);
             }
+            .svg1 {
+                position: absolute;
+                transform: translate(-28%, -50%);
+                clip-path: circle(39% at 50% 50%);
+            }
+            .svg2 {
+                position: absolute;
+                transform: translate(60%, 35%);
+                clip-path: circle(46% at 50% 50%);
+            }
         }
         /**Background* click path**/
