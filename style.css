@@ -35,15 +35,16 @@
         }
         
         .container {
-            width: 85%;
+            width: 80%;
             background: white;
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
             border-radius: 15px;
             text-align: center;
             z-index: 2;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            ;
         }
         /*Images style*/
         
@@ -115,6 +116,9 @@
             .container {
                 width: 30%;
                 text-align: center;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
             }
             .main {
                 width: 100%;
@@ -127,8 +131,8 @@
             }
             .svg2 {
                 position: absolute;
-                transform: translate(60%, 35%);
-                clip-path: circle(46% at 50% 50%);
+                transform: translate(65%, 35%);
+                clip-path: circle(49% at 50% 50%);
             }
         }
         /**Background* click path**/
